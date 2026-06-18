@@ -46,7 +46,7 @@ function Universities() {
                   <span className="inline-flex items-center gap-1 text-muted-foreground">
                     <Building2 className="h-3.5 w-3.5" /> {count} courses
                   </span>
-                  <Link to="/browse" search={undefined as never} className="font-semibold text-primary hover:underline">
+                  <Link to="/browse" className="font-semibold text-primary hover:underline">
                     View →
                   </Link>
                 </div>
