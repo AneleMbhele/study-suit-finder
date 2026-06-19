@@ -80,9 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "CourseCompass — Find your university course in South Africa" },
       { name: "description", content: "Enter your matric marks to discover which university courses you qualify for across SA's top universities. No more digging through prospectuses." },
       { property: "og:title", content: "CourseCompass — Find your university course in South Africa" },
-      { property: "og:description", content: "Enter your matric marks to discover which university courses you qualify for across SA's top universities." },
+      { property: "og:description", content: "Enter your matric marks to discover which university courses you qualify for across SA's top universities. No more digging through prospectuses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "CourseCompass — Find your university course in South Africa" },
+      { name: "twitter:description", content: "Enter your matric marks to discover which university courses you qualify for across SA's top universities. No more digging through prospectuses." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69520fb2-8825-4d94-831c-b80f4e36c226/id-preview-ded6cb04--020fcf02-7798-4fe4-ab7b-2d13cfb10040.lovable.app-1781806710174.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/69520fb2-8825-4d94-831c-b80f4e36c226/id-preview-ded6cb04--020fcf02-7798-4fe4-ab7b-2d13cfb10040.lovable.app-1781806710174.png" },
     ],
     links: [
       {
